@@ -52,10 +52,10 @@ module.exports = {
   'statusBar.foreground':                     darken(FOREGROUND, 15),
   'statusBarItem.hoverBackground':            fade(BLACK, .25),
   'statusBarItem.activeBackground':           fade(BLACK, .35),
-  'statusBar.debuggingBackground':            '#4a4028',
-  'statusBar.debuggingForeground':            '#fff',
-  'statusBar.noFolderBackground':             '#28454a',
-  'statusBar.noFolderForeground':             '#fff',
+  'statusBar.debuggingBackground':            darken(BACKGROUND, 3),
+  'statusBar.debuggingForeground':            '#e4b871',
+  'statusBar.noFolderBackground':             darken(BACKGROUND, 3),
+  'statusBar.noFolderForeground':             '#aba9e2',
 
   // ActivityBar
 
@@ -119,17 +119,27 @@ module.exports = {
   'editorSuggestWidget.selectedBackground':   fade(BLACK, .2),
   'editorSuggestWidget.border':               darken(BACKGROUND, 9),
 
+  // pickerGroup
+
+  'pickerGroup.border':                       darken(BACKGROUND, 7),
+  'pickerGroup.foreground':                   FOREGROUND,
+
+
   // Widgets
 
   'editorWidget.background':                  darken(BACKGROUND, 5),
-  'widget.shadow':                            darken(BACKGROUND, 7),
+  'widget.shadow':                            darken(BACKGROUND, 6),
   'editorHoverWidget.background':             darken(BACKGROUND, 5),
   'editorHoverWidget.border':                 darken(BACKGROUND, 7),
+
+  // DebugToolBar
+
+  'debugToolBar.background':                   darken(BACKGROUND, 5),
 
   // Panel
 
   'panel.background':                         darken(BACKGROUND, 4),
-  'panel.border':                             darken(BACKGROUND, 7),
+  'panel.border':                             darken(BACKGROUND, 6),
   'panelTitle.activeForeground':              darken(FOREGROUND, 10),
   'panelTitle.activeBorder':                  BLIND,
 
@@ -140,7 +150,7 @@ module.exports = {
 
   // Notification
 
-  'notification.background':                  BACKGROUND,
+  'notification.background':                  darken(BACKGROUND, 7),
   'notification.foreground':                  '#eeffff',
 
   // Badge

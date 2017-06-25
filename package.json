@@ -4,8 +4,9 @@
   "version": "0.0.1",
   "scripts": {
     "build": "node scripts/build.js",
-    "package": "vsce package",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "package": "vsce package --out package.vsix",
+    "code:install": "npm run package && code --install-extension package.vsix"
   },
   "watch": {
     "build": "sources/**/*.js"
