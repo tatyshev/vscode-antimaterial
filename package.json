@@ -1,5 +1,6 @@
 {
   "name": "vscode-antimaterial",
+  "description": "Antimaterial theme for Visual Studio Code",
   "displayName": "Antimaterial Theme",
   "version": "1.0.0",
   "scripts": {
