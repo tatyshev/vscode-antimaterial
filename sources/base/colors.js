@@ -54,7 +54,7 @@ module.exports = {
   'statusBar.debuggingBackground':            darken(BACKGROUND, 3),
   'statusBar.debuggingForeground':            '#e4b871',
   'statusBar.noFolderBackground':             darken(BACKGROUND, 3),
-  'statusBar.noFolderForeground':             '#aba9e2',
+  'statusBar.noFolderForeground':             darken(FOREGROUND, 15),
 
   // ActivityBar
 
@@ -66,10 +66,10 @@ module.exports = {
 
   // TitleBar
 
-  'titleBar.activeBackground':                BACKGROUND,
-  'titleBar.activeForeground':                '#546e7a',
-  'titleBar.inactiveBackground':              BACKGROUND,
-  'titleBar.inactiveForeground':              '#546e7a',
+  'titleBar.activeBackground':                darken(BACKGROUND, 7),
+  'titleBar.activeForeground':                darken(FOREGROUND, 10),
+  'titleBar.inactiveBackground':              darken(BACKGROUND, 5),
+  'titleBar.inactiveForeground':              darken(FOREGROUND, 30),
 
   // Sidebar
 
@@ -133,7 +133,7 @@ module.exports = {
 
   // DebugToolBar
 
-  'debugToolBar.background':                   darken(BACKGROUND, 5),
+  'debugToolBar.background':                  darken(BACKGROUND, 5),
 
   // Panel
 
@@ -150,13 +150,18 @@ module.exports = {
   // Notification
 
   'notification.background':                  darken(BACKGROUND, 7),
-  'notification.foreground':                  '#eeffff',
+  'notification.foreground':                  FOREGROUND,
 
   // Badge
 
-  'badge.background':                         '#00000030',
-  'badge.foreground':                         '#546e7a',
-  'button.background':                        '#80cbc420',
+  'badge.background':                         BACKGROUND,
+  'badge.foreground':                         FOREGROUND,
+
+  // Button
+
+  'button.background':                        darken(TURQUOISE, 15),
+  'button.hoverBackground':                   darken(TURQUOISE, 10),
+  'button.foreground':                        WHITE,
 
   // ExtensionButton
 
