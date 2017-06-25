@@ -170,12 +170,12 @@ module.exports = {
 
   // PeekView
 
-  'peekView.border':                          '#00000030',
-  'peekViewEditor.background':                '#eeffff05',
-  'peekViewTitle.background':                 '#eeffff05',
-  'peekViewResult.background':                '#eeffff05',
-  'peekViewEditorGutter.background':          '#eeffff05',
-  'peekViewTitleDescription.foreground':      '#eeffff60',
+  'peekView.border':                          darken(BACKGROUND, 7),
+  'peekViewTitle.background':                 darken(BACKGROUND, 3),
+  'peekViewEditor.background':                darken(BACKGROUND, 5),
+  'peekViewResult.background':                darken(BACKGROUND, 5),
+  'peekViewEditorGutter.background':          darken(BACKGROUND, 5),
+  'peekViewTitleDescription.foreground':      FOREGROUND,
 
   // Terminal
 
