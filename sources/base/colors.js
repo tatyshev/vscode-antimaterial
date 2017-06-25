@@ -159,14 +159,14 @@ module.exports = {
 
   // Button
 
-  'button.background':                        darken(TURQUOISE, 15),
-  'button.hoverBackground':                   darken(TURQUOISE, 10),
+  'button.background':                        darken(TURQUOISE, 23),
+  'button.hoverBackground':                   darken(TURQUOISE, 20),
   'button.foreground':                        WHITE,
 
   // ExtensionButton
 
-  'extensionButton.prominentBackground':      '#c3e88d90',
-  'extensionButton.prominentHoverBackground': '#c3e88d',
+  'extensionButton.prominentBackground':      darken(TURQUOISE, 17),
+  'extensionButton.prominentHoverBackground': darken(TURQUOISE, 15),
 
   // PeekView
 
