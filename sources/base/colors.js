@@ -1,20 +1,16 @@
-function fromTinyColor(fn) {
-  return function (color, value) {
-    return color.clone()[fn](value);
-  }
-}
+const Color   = require('tinycolor2');
+const utils   = require('../utils');
 
-const _ = require('tinycolor2');
-const lighten = fromTinyColor('lighten');
-const darken = fromTinyColor('darken');
-const fade = fromTinyColor('setAlpha');
+const lighten = utils.lighten;
+const darken  = utils.darken;
+const fade    = utils.fade;
 
-const BACKGROUND  = _('#263238');
-const FOREGROUND  = _('#99aeb8');
-const TURQUOISE   = _('#117daf');
-const BLACK       = _('#000');
-const WHITE       = _('#fff');
-const BLIND       = _('#00000000');
+const BACKGROUND  = Color('#263238');
+const FOREGROUND  = Color('#99aeb8');
+const TURQUOISE   = Color('#117daf');
+const BLACK       = Color('#000');
+const WHITE       = Color('#fff');
+const BLIND       = Color('#00000000');
 
 module.exports = {
   'focusBorder':                              fade(TURQUOISE, .5),
