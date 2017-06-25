@@ -16,11 +16,6 @@ module.exports = {
   'focusBorder':                              fade(TURQUOISE, .5),
   'selection.background':                     fade(TURQUOISE, .7),
 
-  // textLink
-
-  'textLink.foreground':                      '#80cbc4',
-  'textLink.activeForeground':                '#eeffff',
-
   // Editor
 
   'editor.background':                        BACKGROUND,
@@ -31,11 +26,15 @@ module.exports = {
   'editorLineNumber.foreground':              lighten(BACKGROUND, 15),
   'editorBracketMatch.border':                lighten(BACKGROUND, 35),
   'editorIndentGuide.background':             fade(lighten(BACKGROUND, 15), .32),
+  'editorCodeLens.foreground':                FOREGROUND,
   'editorGroupHeader.tabsBackground':         darken(BACKGROUND, 3),
   'editorGroupHeader.tabsBorder':             darken(BACKGROUND, 6),
   'editorGroup.border':                       darken(BACKGROUND, 6),
-  'editorLink.activeForeground':              '#eeffff',
   'editorCursor.foreground':                  fade(WHITE, .7),
+
+  'editorGutter.addedBackground':             '#87b544',
+  'editorGutter.modifiedBackground':          '#3995c3',
+  'editorGutter.deletedBackground':           '#b9474c',
 
   // Tab
 
