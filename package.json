@@ -1,0 +1,33 @@
+{
+  "name": "vscode-antimaterial",
+  "displayName": "Antimaterial Theme",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "sources/**/*.js"
+  },
+  "publisher": "tatyshev",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Antimaterial",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Antimaterial.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "color": "^1.0.3",
+    "npm-watch": "^0.1.9",
+    "tinycolor2": "^1.4.1"
+  }
+}
