@@ -1,37 +1,37 @@
 {
-  "name": "vscode-antimaterial",
-  "description": "Antimaterial theme for Visual Studio Code",
-  "displayName": "Antimaterial Theme",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "node scripts/build.js",
-    "watch": "npm-watch",
-    "package": "vsce package --out package.vsix",
-    "code:install": "npm run package && code --install-extension package.vsix"
-  },
-  "watch": {
-    "build": "sources/**/*.js"
-  },
-  "publisher": "tatyshev",
-  "engines": {
-    "vscode": "^1.13.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Antimaterial",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Antimaterial.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "color": "^1.0.3",
-    "npm-watch": "^0.1.9",
-    "tinycolor2": "^1.4.1",
-    "vsce": "^1.26.0"
-  }
+    "name": "vscode-antimaterial",
+    "description": "Antimaterial theme for Visual Studio Code",
+    "displayName": "Antimaterial Theme",
+    "version": "1.1.0",
+    "scripts": {
+        "build": "node scripts/build.js",
+        "watch": "npm-watch",
+        "package": "vsce package --out package.vsix",
+        "code:install": "npm run package && code --install-extension package.vsix"
+    },
+    "watch": {
+        "build": "sources/**/*.js"
+    },
+    "publisher": "tatyshev",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Antimaterial",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Antimaterial.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "color": "^1.0.3",
+        "npm-watch": "^0.1.9",
+        "tinycolor2": "^1.4.1",
+        "vsce": "^1.26.0"
+    }
 }
