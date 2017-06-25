@@ -21,15 +21,14 @@
   ],
   "contributes": {
     "themes": [
-        {
-          "label": "Antimaterial",
-          "uiTheme": "vs-dark",
-          "path": "./themes/Antimaterial.json"
-        }
+      {
+        "label": "Antimaterial",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Antimaterial.json"
+      }
     ]
   },
   "devDependencies": {
-    "color": "^1.0.3",
     "npm-watch": "^0.1.9",
     "tinycolor2": "^1.4.1",
     "vsce": "^1.26.0"
