@@ -78,7 +78,7 @@
     "pickerGroup.border": "#181f23",
     "pickerGroup.foreground": "#99aeb8",
     "editorWidget.background": "#1c2429",
-    "widget.shadow": "#1a2226",
+    "widget.shadow": "#1a2226a6",
     "editorHoverWidget.background": "#1c2429",
     "editorHoverWidget.border": "#181f23",
     "debugToolBar.background": "#1c2429",

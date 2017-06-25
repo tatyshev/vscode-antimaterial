@@ -127,7 +127,7 @@ module.exports = {
   // Widgets
 
   'editorWidget.background':                  darken(BACKGROUND, 5),
-  'widget.shadow':                            darken(BACKGROUND, 6),
+  'widget.shadow':                            fade(darken(BACKGROUND, 6), .65),
   'editorHoverWidget.background':             darken(BACKGROUND, 5),
   'editorHoverWidget.border':                 darken(BACKGROUND, 7),
 
