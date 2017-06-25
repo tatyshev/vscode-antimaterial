@@ -7,22 +7,22 @@ const fade    = utils.fade;
 
 const BACKGROUND  = Color('#263238');
 const FOREGROUND  = Color('#99aeb8');
-const TURQUOISE   = Color('#117daf');
+const ACCENT      = Color('#117daf');
 const BLACK       = Color('#000');
 const WHITE       = Color('#fff');
 const BLIND       = Color('#00000000');
 
 module.exports = {
-  'focusBorder':                              fade(TURQUOISE, .5),
-  'selection.background':                     fade(TURQUOISE, .7),
+  'focusBorder':                              fade(ACCENT, .5),
+  'selection.background':                     fade(ACCENT, .7),
 
   // Editor
 
   'editor.background':                        BACKGROUND,
   'editor.foreground':                        lighten(FOREGROUND, 20),
   'editor.lineHighlightBackground':           fade(BLACK, 0.13),
-  'editor.selectionBackground':               fade(TURQUOISE, .35),
-  'editor.selectionHighlightBackground':      fade(TURQUOISE, .2),
+  'editor.selectionBackground':               fade(ACCENT, .35),
+  'editor.selectionHighlightBackground':      fade(ACCENT, .2),
   'editorLineNumber.foreground':              lighten(BACKGROUND, 15),
   'editorBracketMatch.border':                lighten(BACKGROUND, 35),
   'editorIndentGuide.background':             fade(lighten(BACKGROUND, 15), .32),
@@ -61,7 +61,7 @@ module.exports = {
   'activityBar.background':                   darken(BACKGROUND, 3),
   'activityBar.border':                       darken(BACKGROUND, 6),
   'activityBar.foreground':                   lighten(FOREGROUND, 3),
-  'activityBarBadge.background':              TURQUOISE,
+  'activityBarBadge.background':              ACCENT,
   'activityBarBadge.foreground':              WHITE,
 
   // TitleBar
@@ -101,7 +101,7 @@ module.exports = {
   'list.inactiveSelectionBackground':         fade(BLACK, .25),
   'list.activeSelectionBackground':           fade(BLACK, .27),
 
-  'list.highlightForeground':                 lighten(TURQUOISE, 15),
+  'list.highlightForeground':                 lighten(ACCENT, 15),
 
   // ScrollBar
 
@@ -114,7 +114,7 @@ module.exports = {
 
   'editorSuggestWidget.background':           darken(BACKGROUND, 4),
   'editorSuggestWidget.foreground':           lighten(FOREGROUND, 15),
-  'editorSuggestWidget.highlightForeground':  TURQUOISE,
+  'editorSuggestWidget.highlightForeground':  ACCENT,
   'editorSuggestWidget.selectedBackground':   fade(BLACK, .2),
   'editorSuggestWidget.border':               darken(BACKGROUND, 9),
 
@@ -159,14 +159,14 @@ module.exports = {
 
   // Button
 
-  'button.background':                        darken(TURQUOISE, 23),
-  'button.hoverBackground':                   darken(TURQUOISE, 20),
+  'button.background':                        darken(ACCENT, 23),
+  'button.hoverBackground':                   darken(ACCENT, 20),
   'button.foreground':                        WHITE,
 
   // ExtensionButton
 
-  'extensionButton.prominentBackground':      darken(TURQUOISE, 17),
-  'extensionButton.prominentHoverBackground': darken(TURQUOISE, 15),
+  'extensionButton.prominentBackground':      darken(ACCENT, 17),
+  'extensionButton.prominentHoverBackground': darken(ACCENT, 15),
 
   // PeekView
 
