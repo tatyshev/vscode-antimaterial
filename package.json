@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "node scripts/build.js",
+    "package": "vsce package",
     "watch": "npm-watch"
   },
   "watch": {
@@ -28,6 +29,7 @@
   "devDependencies": {
     "color": "^1.0.3",
     "npm-watch": "^0.1.9",
-    "tinycolor2": "^1.4.1"
+    "tinycolor2": "^1.4.1",
+    "vsce": "^1.26.0"
   }
 }
