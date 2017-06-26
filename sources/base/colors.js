@@ -21,7 +21,6 @@ module.exports = {
   'editor.background':                        BACKGROUND,
   'editor.foreground':                        lighten(FOREGROUND, 20),
   'editor.lineHighlightBackground':           fade(BLACK, 0.13),
-  'editor.selectionBackground':               fade(ACCENT, .35),
   'editor.selectionHighlightBackground':      fade(ACCENT, .2),
   'editorLineNumber.foreground':              lighten(BACKGROUND, 15),
   'editorBracketMatch.border':                lighten(BACKGROUND, 35),
@@ -31,6 +30,13 @@ module.exports = {
   'editorGroupHeader.tabsBorder':             darken(BACKGROUND, 6),
   'editorGroup.border':                       darken(BACKGROUND, 6),
   'editorCursor.foreground':                  fade(WHITE, .7),
+
+  'editor.selectionBackground':               fade(ACCENT, .35),
+  'editor.selectionHighlightBackground':      fade(ACCENT, .25),
+  'editor.wordHighlightBackground':           fade(ACCENT, .20),
+  'editor.inactiveSelectionBackground':       fade(ACCENT, .17),
+  'editor.findMatchHighlightBackground':      fade('#096759', .4),
+  'editor.findMatchBackground':               fade('#096759', .6),
 
   'editorGutter.addedBackground':             '#87b544',
   'editorGutter.modifiedBackground':          '#3995c3',
