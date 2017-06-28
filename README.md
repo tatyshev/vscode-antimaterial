@@ -9,4 +9,5 @@ Launch VS Code Quick Open (⌘+P), paste the following command, and press enter.
 ```
 
 ## ScreenShot
-![Main window](https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/screenshots/main.png)
+![Main window](https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/screenshots/base.png)
+![Main window](https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/screenshots/solarized.png)
