@@ -37,6 +37,11 @@
         "label": "Antimaterial",
         "uiTheme": "vs-dark",
         "path": "./themes/Antimaterial.json"
+      },
+      {
+        "label": "Antimaterial - Solarized",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Antimaterial Solarized.json"
       }
     ]
   }
