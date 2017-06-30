@@ -6,7 +6,7 @@ const darken  = utils.darken;
 const fade    = utils.fade;
 
 const BACKGROUND  = Color('#0e2e36');
-const FOREGROUND  = Color('#93a1a1');
+const FOREGROUND  = lighten(Color('#93a1a1'), 2);
 const ACCENT      = Color('#2aa198');
 const BLACK       = Color('#000');
 const WHITE       = Color('#fff');
@@ -23,12 +23,12 @@ module.exports = {
   'editor.lineHighlightBackground':           fade(BLACK, 0.13),
   'editor.selectionHighlightBackground':      fade(ACCENT, .2),
   'editorLineNumber.foreground':              lighten(BACKGROUND, 8),
-  'editorBracketMatch.border':                lighten(BACKGROUND, 35),
+  'editorBracketMatch.border':                lighten(BACKGROUND, 20),
   'editorIndentGuide.background':             fade(lighten(BACKGROUND, 15), .32),
   'editorCodeLens.foreground':                FOREGROUND,
   'editorGroupHeader.tabsBackground':         darken(BACKGROUND, 1.9),
   'editorGroupHeader.tabsBorder':             darken(BACKGROUND, 6),
-  'editorGroup.border':                       darken(BACKGROUND, 6),
+  'editorGroup.border':                       darken(BACKGROUND, 4),
   'editorCursor.foreground':                  fade(WHITE, .7),
 
   'editor.selectionBackground':               fade(ACCENT, .35),
@@ -48,12 +48,12 @@ module.exports = {
   'tab.inactiveForeground':                   darken(FOREGROUND, 20),
   'tab.inactiveBackground':                   darken(BACKGROUND, 1.9),
   'tab.unfocusedActiveForeground':            darken(FOREGROUND, 20),
-  'tab.border':                               darken(BACKGROUND, 6),
+  'tab.border':                               darken(BACKGROUND, 4),
 
   // StatusBar
 
   'statusBar.background':                     darken(BACKGROUND, 1.9),
-  'statusBar.border':                         darken(BACKGROUND, 6),
+  'statusBar.border':                         darken(BACKGROUND, 4),
   'statusBar.foreground':                     darken(FOREGROUND, 15),
   'statusBarItem.hoverBackground':            fade(BLACK, .25),
   'statusBarItem.activeBackground':           fade(BLACK, .35),
@@ -65,7 +65,7 @@ module.exports = {
   // ActivityBar
 
   'activityBar.background':                   darken(BACKGROUND, 1.9),
-  'activityBar.border':                       darken(BACKGROUND, 6),
+  'activityBar.border':                       darken(BACKGROUND, 4),
   'activityBar.foreground':                   lighten(FOREGROUND, 3),
   'activityBarBadge.background':              ACCENT,
   'activityBarBadge.foreground':              WHITE,
@@ -80,7 +80,7 @@ module.exports = {
   // Sidebar
 
   'sideBar.background':                       darken(BACKGROUND, 1.9),
-  'sideBar.border':                           darken(BACKGROUND, 6),
+  'sideBar.border':                           darken(BACKGROUND, 4),
   'sideBar.foreground':                       FOREGROUND,
   'sideBarTitle.foreground':                  darken(FOREGROUND, 15),
   'sideBarSectionHeader.background':          BACKGROUND,
@@ -90,12 +90,12 @@ module.exports = {
   'input.background':                         darken(BACKGROUND, 5),
   'input.foreground':                         lighten(FOREGROUND, 10),
   'input.placeholderForeground':              FOREGROUND,
-  'input.border':                             darken(BACKGROUND, 5.5),
+  'input.border':                             darken(BACKGROUND, 4.5),
   'inputValidation.errorBorder':              '#ff5370',
   'inputValidation.infoBorder':               '#82aaff',
   'inputValidation.warningBorder':            '#ffcb6b',
   'dropdown.background':                      darken(BACKGROUND, 4),
-  'dropdown.border':                          darken(BACKGROUND, 7),
+  'dropdown.border':                          darken(BACKGROUND, 6),
 
   'list.hoverForeground':                     lighten(FOREGROUND, 10),
   'list.focusForeground':                     lighten(FOREGROUND, 15),
@@ -107,7 +107,7 @@ module.exports = {
   'list.inactiveSelectionBackground':         fade(BLACK, .25),
   'list.activeSelectionBackground':           fade(BLACK, .27),
 
-  'list.highlightForeground':                 lighten('#859900', 5),
+  'list.highlightForeground':                 lighten('#859900', 3),
 
   // ScrollBar
 
@@ -122,11 +122,11 @@ module.exports = {
   'editorSuggestWidget.foreground':           lighten(FOREGROUND, 15),
   'editorSuggestWidget.highlightForeground':  ACCENT,
   'editorSuggestWidget.selectedBackground':   fade(BLACK, .2),
-  'editorSuggestWidget.border':               darken(BACKGROUND, 9),
+  'editorSuggestWidget.border':               darken(BACKGROUND, 7),
 
   // pickerGroup
 
-  'pickerGroup.border':                       darken(BACKGROUND, 7),
+  'pickerGroup.border':                       darken(BACKGROUND, 5),
   'pickerGroup.foreground':                   FOREGROUND,
 
 
@@ -135,7 +135,7 @@ module.exports = {
   'editorWidget.background':                  darken(BACKGROUND, 5),
   'widget.shadow':                            fade(darken(BACKGROUND, 6), .65),
   'editorHoverWidget.background':             darken(BACKGROUND, 5),
-  'editorHoverWidget.border':                 darken(BACKGROUND, 7),
+  'editorHoverWidget.border':                 darken(BACKGROUND, 5),
 
   // DebugToolBar
 
@@ -144,7 +144,7 @@ module.exports = {
   // Panel
 
   'panel.background':                         darken(BACKGROUND, 4),
-  'panel.border':                             darken(BACKGROUND, 6),
+  'panel.border':                             darken(BACKGROUND, 4),
   'panelTitle.activeForeground':              darken(FOREGROUND, 10),
   'panelTitle.activeBorder':                  BLIND,
 
@@ -176,7 +176,7 @@ module.exports = {
 
   // PeekView
 
-  'peekView.border':                          darken(BACKGROUND, 7),
+  'peekView.border':                          darken(BACKGROUND, 6),
   'peekViewTitle.background':                 darken(BACKGROUND, 1.9),
   'peekViewEditor.background':                darken(BACKGROUND, 5),
   'peekViewResult.background':                darken(BACKGROUND, 5),
