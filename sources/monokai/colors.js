@@ -7,7 +7,7 @@ const fade    = utils.fade;
 
 const BACKGROUND  = Color('#272822');
 const FOREGROUND  = Color('#8c8f88');
-const ACCENT      = darken(Color('#b7fa2d'), 5);
+const ACCENT      = Color('#f2951f');
 const BLACK       = Color('#000');
 const WHITE       = Color('#fff');
 const BLIND       = Color('#00000000');
@@ -107,7 +107,7 @@ module.exports = {
   'list.inactiveSelectionBackground':         fade(BLACK, .25),
   'list.activeSelectionBackground':           fade(BLACK, .27),
 
-  'list.highlightForeground':                 lighten(ACCENT, 15),
+  'list.highlightForeground':                 lighten(ACCENT, 3),
 
   // ScrollBar
 
