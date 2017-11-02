@@ -19,7 +19,7 @@
   "devDependencies": {
     "npm-watch": "^0.1.9",
     "tinycolor2": "^1.4.1",
-    "vsce": "^1.26.0"
+    "vsce": "^1.32.0"
   },
   "watch": {
     "build": "sources/**/*.js"
