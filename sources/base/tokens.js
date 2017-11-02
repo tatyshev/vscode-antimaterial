@@ -164,6 +164,15 @@ module.exports = [
     }
   },
   {
+    name: "Number, Constant, Function Argument, Tag Attribute, Embedded",
+    scope: [
+      "variable.parameter.function.language.special"
+    ],
+    settings: {
+      foreground: "#FF5370"
+    }
+  },
+  {
     name: "String, Symbols, Inherited Class, Markup Heading",
     scope: [
       "string",
@@ -637,8 +646,7 @@ module.exports = [
     name: "Markdown - Fenced Bode Block Variable",
     scope: [
       "markup.raw.block.fenced.markdown",
-      "variable.language.fenced.markdown",
-      "punctuation.section.class.end"
+      "variable.language.fenced.markdown"
     ],
     settings: {
       foreground: "#EEFFFF"
