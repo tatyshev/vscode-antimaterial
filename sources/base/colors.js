@@ -23,6 +23,7 @@ module.exports = {
   'editor.lineHighlightBackground':              fade(BLACK, 0.13),
   'editor.selectionHighlightBackground':         fade(ACCENT, .2),
   'editorLineNumber.foreground':                 lighten(BACKGROUND, 15),
+  'editorLineNumber.activeForeground':           lighten(BACKGROUND, 35),
   'editorBracketMatch.border':                   lighten(BACKGROUND, 35),
   'editorIndentGuide.background':                fade(lighten(BACKGROUND, 15), .32),
   'editorCodeLens.foreground':                   FOREGROUND,
@@ -37,6 +38,10 @@ module.exports = {
   'editor.inactiveSelectionBackground':          fade(ACCENT, .17),
   'editor.findMatchHighlightBackground':         fade('#096759', .4),
   'editor.findMatchBackground':                  fade('#096759', .6),
+
+  // Rulers
+
+  "editorRuler.foreground":                      fade(lighten(BACKGROUND, 15), .32),
 
   'editorGutter.addedBackground':                '#87b544',
   'editorGutter.modifiedBackground':             '#3995c3',

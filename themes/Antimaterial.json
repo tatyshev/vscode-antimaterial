@@ -9,6 +9,7 @@
     "editor.lineHighlightBackground": "#00000021",
     "editor.selectionHighlightBackground": "#117daf40",
     "editorLineNumber.foreground": "#455b66",
+    "editorLineNumber.activeForeground": "#72909f",
     "editorBracketMatch.border": "#72909f",
     "editorIndentGuide.background": "#455b6652",
     "editorCodeLens.foreground": "#99aeb8",
@@ -21,6 +22,7 @@
     "editor.inactiveSelectionBackground": "#117daf2b",
     "editor.findMatchHighlightBackground": "#09675966",
     "editor.findMatchBackground": "#09675999",
+    "editorRuler.foreground": "#455b6652",
     "editorGutter.addedBackground": "#87b544",
     "editorGutter.modifiedBackground": "#3995c3",
     "editorGutter.deletedBackground": "#b9474c",
@@ -158,6 +160,15 @@
       }
     },
     {
+      "name": "PHP Constants",
+      "scope": [
+        "constant.other.php"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
       "name": "Colors",
       "scope": [
         "constant.other.color"
@@ -224,6 +235,15 @@
       ],
       "settings": {
         "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Keyword Control",
+      "scope": [
+        "keyword.control"
+      ],
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -705,7 +725,6 @@
         "markup.quote punctuation.definition.blockquote.markdown"
       ],
       "settings": {
-        "background": "#65737E",
         "foreground": "#65737E"
       }
     },
@@ -756,31 +775,13 @@
       }
     },
     {
-      "name": "Markdown - Raw Block Fenced",
-      "scope": [
-        "markup.raw.block.fenced.markdown"
-      ],
-      "settings": {
-        "foreground": "#00000050"
-      }
-    },
-    {
-      "name": "Markdown - Fenced Bode Block",
-      "scope": [
-        "punctuation.definition.fenced.markdown"
-      ],
-      "settings": {
-        "foreground": "#00000050"
-      }
-    },
-    {
       "name": "Markdown - Fenced Bode Block Variable",
       "scope": [
-        "markup.raw.block.fenced.markdown",
-        "variable.language.fenced.markdown"
+        "markup.fenced_code.block.markdown",
+        "markup.inline.raw.string.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#EEFFFF90"
       }
     },
     {
@@ -799,7 +800,6 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "background": "#00000050",
         "foreground": "#65737E"
       }
     },

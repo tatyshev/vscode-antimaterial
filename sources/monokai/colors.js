@@ -6,8 +6,8 @@ const darken  = utils.darken;
 const fade    = utils.fade;
 
 const BACKGROUND  = Color('#2a2b28');
-const FOREGROUND  = Color('#8c8f88');
-const ACCENT      = Color('#e5a045');
+const FOREGROUND  = Color('#AFB2AA');
+const ACCENT      = Color('#f4ac71');
 const BLACK       = Color('#000');
 const WHITE       = Color('#fff');
 const BLIND       = Color('#00000000');
@@ -22,6 +22,7 @@ module.exports = {
   'editor.foreground':                           lighten(FOREGROUND, 20),
   'editor.lineHighlightBackground':              fade(BLACK, 0.13),
   'editorLineNumber.foreground':                 lighten(BACKGROUND, 15),
+  'editorLineNumber.activeForeground':           lighten(BACKGROUND, 35),
   'editorBracketMatch.border':                   lighten(BACKGROUND, 35),
   'editorIndentGuide.background':                fade(lighten(BACKGROUND, 15), .32),
   'editorCodeLens.foreground':                   FOREGROUND,
@@ -34,12 +35,16 @@ module.exports = {
   'editor.selectionHighlightBackground':         fade(ACCENT, .25),
   'editor.wordHighlightBackground':              fade(ACCENT, .20),
   'editor.inactiveSelectionBackground':          fade(ACCENT, .17),
-  'editor.findMatchHighlightBackground':         fade('#f92672', .2),
-  'editor.findMatchBackground':                  fade('#f92672', .4),
+  'editor.findMatchHighlightBackground':         fade(lighten(BACKGROUND, 12), .2),
+  'editor.findMatchBackground':                  fade(lighten(BACKGROUND, 12), .4),
 
   'editorGutter.addedBackground':                '#87b544',
-  'editorGutter.modifiedBackground':             '#3995c3',
+  'editorGutter.modifiedBackground':             '#7D44B5',
   'editorGutter.deletedBackground':              '#b9474c',
+
+  // Rulers
+
+  "editorRuler.foreground":                      fade(lighten(BACKGROUND, 15), .32),
 
   // Tab
 
@@ -164,14 +169,14 @@ module.exports = {
 
   // Button
 
-  'button.background':                           darken(ACCENT, 23),
-  'button.hoverBackground':                      darken(ACCENT, 20),
+  'button.background':                           lighten(BACKGROUND, 7),
+  'button.hoverBackground':                      lighten(BACKGROUND, 12),
   'button.foreground':                           WHITE,
 
   // ExtensionButton
 
-  'extensionButton.prominentBackground':         darken(ACCENT, 17),
-  'extensionButton.prominentHoverBackground':    darken(ACCENT, 15),
+  'extensionButton.prominentBackground':         lighten(BACKGROUND, 7),
+  'extensionButton.prominentHoverBackground':    lighten(BACKGROUND, 12),
 
   // PeekView
 
