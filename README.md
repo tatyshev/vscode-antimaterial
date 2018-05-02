@@ -4,11 +4,11 @@ Theme for [Visual Studio Code](http://code.visualstudio.com). Originally taken f
 
 ### Material
 
-<img src="https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/images/material.jpg"/>
+<img src="https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/images/material.png"/>
 
 ### Monokai
 
-<img src="https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/images/monokai.jpg"/>
+<img src="https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/images/monokai.png"/>
 
 
 # Installation
