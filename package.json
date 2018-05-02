@@ -17,9 +17,9 @@
     "code:install": "npm run package && code --install-extension package.vsix"
   },
   "devDependencies": {
-    "npm-watch": "^0.1.9",
+    "npm-watch": "^0.3.0",
     "tinycolor2": "^1.4.1",
-    "vsce": "^1.32.0"
+    "vsce": "^1.39.0"
   },
   "watch": {
     "build": "sources/**/*.js"
