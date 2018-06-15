@@ -5,7 +5,7 @@ const lighten = utils.lighten;
 const darken  = utils.darken;
 const fade    = utils.fade;
 
-const BACKGROUND  = Color('#2a2b28');
+const BACKGROUND  = Color('#2f2f2f');
 const FOREGROUND  = Color('#AFB2AA');
 const ACCENT      = Color('#f4ac71');
 const BLACK       = Color('#000');
