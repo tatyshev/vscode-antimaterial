@@ -10,6 +10,9 @@ Theme for [Visual Studio Code](http://code.visualstudio.com). Originally taken f
 
 <img src="https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/images/monokai.png"/>
 
+### Dracula
+
+<img src="https://raw.githubusercontent.com/tatyshev/vscode-antimaterial/master/images/dracula.png"/>
 
 # Installation
 Launch VS Code Quick Open (⌘+P), paste the following command, and press enter.
