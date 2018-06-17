@@ -43,6 +43,11 @@
         "label": "Antimaterial - Monokai",
         "uiTheme": "vs-dark",
         "path": "./themes/Antimaterial Monokai.json"
+      },
+      {
+        "label": "Antimaterial - Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Antimaterial Dracula.json"
       }
     ]
   }
