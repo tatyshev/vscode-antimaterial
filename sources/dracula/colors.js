@@ -44,7 +44,7 @@ module.exports = {
   "editorRuler.foreground":                      fade(lighten(BACKGROUND, 15), .32),
 
   'editorGutter.addedBackground':                '#87b544',
-  'editorGutter.modifiedBackground':             '#3995c3',
+  'editorGutter.modifiedBackground':             '#c5a6ff',
   'editorGutter.deletedBackground':              '#b9474c',
 
   // Tab

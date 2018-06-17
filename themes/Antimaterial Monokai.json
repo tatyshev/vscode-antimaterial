@@ -23,7 +23,7 @@
     "editor.findMatchHighlightBackground": "#4e4e4e33",
     "editor.findMatchBackground": "#4e4e4e66",
     "editorGutter.addedBackground": "#87b544",
-    "editorGutter.modifiedBackground": "#B287FF",
+    "editorGutter.modifiedBackground": "#c5a6ff",
     "editorGutter.deletedBackground": "#b9474c",
     "editorRuler.foreground": "#55555552",
     "tab.activeForeground": "#c8cac5",

@@ -39,7 +39,7 @@ module.exports = {
   'editor.findMatchBackground':                  fade(lighten(BACKGROUND, 12), .4),
 
   'editorGutter.addedBackground':                '#87b544',
-  'editorGutter.modifiedBackground':             '#B287FF',
+  'editorGutter.modifiedBackground':             '#c5a6ff',
   'editorGutter.deletedBackground':              '#b9474c',
 
   // Rulers
