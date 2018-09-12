@@ -48,6 +48,11 @@
         "label": "Antimaterial - Dracula",
         "uiTheme": "vs-dark",
         "path": "./themes/Antimaterial Dracula.json"
+      },
+      {
+        "label": "Antimaterial - Calamity",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Antimaterial Calamity.json"
       }
     ]
   }
