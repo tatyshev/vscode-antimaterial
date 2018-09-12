@@ -3,7 +3,7 @@
   "description": "Antimaterial theme for Visual Studio Code",
   "displayName": "Antimaterial Theme",
   "icon": "images/logo.png",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "author": "Ruslan Tatyshev <ruslan.tatyshev@gmail.com>",
   "homepage": "https://github.com/tatyshev/vscode-antimaterial",
   "repository": {
