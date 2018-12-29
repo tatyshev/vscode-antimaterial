@@ -1,9 +1,15 @@
 const { updateTokens } = require('./fn');
 
-const MATERIAL_URL = 'https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Equinusocio/vsextensions/vsc-material-theme/2.6.3/vspackage';
-const DRACULA_URL = 'https://marketplace.visualstudio.com/_apis/public/gallery/publishers/dracula-theme/vsextensions/theme-dracula/2.15.0/vspackage';
-const MONOKAI_URL = 'https://marketplace.visualstudio.com/_apis/public/gallery/publishers/monokai/vsextensions/theme-monokai-pro-vscode/1.1.9/vspackage';
-const CALAMITY_URL = 'https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Pustur/vsextensions/calamity-vscode/1.2.3/vspackage';
+const MATERIAL_VER = '2.6.3';
+const DRACULA_VER = '2.15.0';
+const MONOKAI_VER = '1.1.9';
+const CALAMITY_VER = '1.2.3';
+
+const BASE_URL = 'https://marketplace.visualstudio.com/_apis/public/gallery/publishers';
+const MATERIAL_URL = `${BASE_URL}/Equinusocio/vsextensions/vsc-material-theme/${MATERIAL_VER}/vspackage`;
+const DRACULA_URL = `${BASE_URL}/dracula-theme/vsextensions/theme-dracula/${DRACULA_VER}/vspackage`;
+const MONOKAI_URL = `${BASE_URL}/monokai/vsextensions/theme-monokai-pro-vscode/${MONOKAI_VER}/vspackage`;
+const CALAMITY_URL = `${BASE_URL}/Pustur/vsextensions/calamity-vscode/${CALAMITY_VER}/vspackage`;
 
 (async () => {
   await updateTokens({
@@ -29,4 +35,6 @@ const CALAMITY_URL = 'https://marketplace.visualstudio.com/_apis/public/gallery/
     file: "extension/themes/Calamity-color-theme.json",
     writeTo: "sources/calamity/tokens.js"
   })
+
+  console.log('Yahoooo! 👹👹👹')
 })()
