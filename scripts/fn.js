@@ -74,12 +74,12 @@ function replacer (key, value) {
 }
 
 function getSource (name) {
-  const path = resolve(`./sources/${name}`);
-  return require(path);
+  const p = path.resolve(`./sources/${name}`);
+  return require(p);
 }
 
 function createTheme (file, theme) {
-  const dest = resolve(`./themes/${file}`);
+  const dest = path.resolve(`./themes/${file}`);
   const content = JSON.stringify(theme, replacer, 2);
 
   fs.writeFileSync(dest, content);

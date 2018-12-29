@@ -883,7 +883,10 @@
       "scope": [
         "variable",
         "constant.other.key.perl",
-        "support.variable.property"
+        "support.variable.property",
+        "variable.other.constant.js",
+        "variable.other.constant.ts",
+        "variable.other.constant.tsx"
       ],
       "settings": {
         "foreground": "#F8F8F2"
@@ -893,7 +896,6 @@
       "name": "Destructuring / aliasing reference name (LHS)",
       "scope": [
         "meta.import variable.other.readwrite",
-        "meta.export variable.other.readwrite",
         "meta.object-binding-pattern-variable variable.object.property",
         "meta.variable.assignment.destructured.object.coffee variable"
       ],

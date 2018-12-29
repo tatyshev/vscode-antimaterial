@@ -142,7 +142,8 @@
       "name": "Comment",
       "scope": [
         "comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "string.quoted.docstring"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -306,7 +307,6 @@
         "support.constant",
         "constant.character",
         "constant.escape",
-        "variable.parameter",
         "keyword.other.unit",
         "keyword.other"
       ],
@@ -317,7 +317,8 @@
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
-        "variable.parameter.function.language.special"
+        "variable.parameter.function.language.special",
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#FF5370"
