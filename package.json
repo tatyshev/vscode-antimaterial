@@ -13,14 +13,19 @@
   "license": "MIT",
   "scripts": {
     "build": "node scripts/build.js",
+    "update-tokens": "node scripts/update_tokens.js",
     "watch": "npm-watch",
     "package": "vsce package --out package.vsix",
     "code:install": "npm run package && code --install-extension package.vsix"
   },
   "devDependencies": {
-    "npm-watch": "^0.3.0",
+    "download": "^7.1.0",
+    "mkdirp": "^0.5.1",
+    "node-stream-zip": "^1.7.0",
+    "npm-watch": "^0.5.0",
+    "rimraf": "^2.6.2",
     "tinycolor2": "^1.4.1",
-    "vsce": "^1.39.0"
+    "vsce": "^1.54.0"
   },
   "watch": {
     "build": "sources/**/*.js"
