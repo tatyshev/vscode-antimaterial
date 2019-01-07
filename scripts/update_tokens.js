@@ -1,9 +1,9 @@
 const { updateTokens } = require('./fn');
 
-const MATERIAL_VER = '2.6.3';
-const DRACULA_VER = '2.15.0';
-const MONOKAI_VER = '1.1.9';
-const CALAMITY_VER = '1.2.3';
+const MATERIAL_VER = 'latest';
+const DRACULA_VER = 'latest';
+const MONOKAI_VER = 'latest';
+const CALAMITY_VER = 'latest';
 
 const BASE_URL = 'https://marketplace.visualstudio.com/_apis/public/gallery/publishers';
 const MATERIAL_URL = `${BASE_URL}/Equinusocio/vsextensions/vsc-material-theme/${MATERIAL_VER}/vspackage`;
