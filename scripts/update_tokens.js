@@ -36,5 +36,5 @@ const CALAMITY_URL = `${BASE_URL}/Pustur/vsextensions/calamity-vscode/${CALAMITY
     writeTo: "sources/calamity/tokens.js"
   })
 
-  console.log('Yahoooo! 👹👹👹')
+  console.log('🐥  Yahoooo!')
 })()

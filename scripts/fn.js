@@ -88,7 +88,7 @@ function createTheme (file, theme) {
 }
 
 async function updateTokens({ take, file, writeTo }) {
-  process.stdout.write(`Updating tokens for ${writeTo} `)
+  process.stdout.write(`🐣  Updating tokens for ${writeTo} `)
   ensureFolder('./tmp')
 
   const zip = await fetchZip(take);
@@ -99,7 +99,7 @@ async function updateTokens({ take, file, writeTo }) {
   zip.close()
   rimraf.sync(path.resolve('./tmp'))
 
-  console.log('🤘');
+  console.log('✅');
 }
 
 module.exports = {
