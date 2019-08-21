@@ -298,15 +298,33 @@ module.exports = [
     }
   },
   {
-    "name": "JSDoc-style comment keywords/classes",
+    "name": "JSDoc-style keywords",
     "scope": [
       "comment keyword.codetag.notation",
       "comment.block.documentation keyword",
       "comment.block.documentation storage.type.class"
     ],
     "settings": {
+      "foreground": "#FF79C6"
+    }
+  },
+  {
+    "name": "JSDoc-style types",
+    "scope": [
+      "comment.block.documentation entity.name.type"
+    ],
+    "settings": {
       "foreground": "#8BE9FD",
       "fontStyle": "italic"
+    }
+  },
+  {
+    "name": "JSDoc-style type brackets",
+    "scope": [
+      "comment.block.documentation entity.name.type punctuation.definition.bracket"
+    ],
+    "settings": {
+      "foreground": "#8BE9FD"
     }
   },
   {
@@ -743,6 +761,18 @@ module.exports = [
     ],
     "settings": {
       "foreground": "#8BE9FE"
+    }
+  },
+  {
+    "name": "Docstrings",
+    "scope": [
+      "string.quoted.docstring.multi",
+      "string.quoted.docstring.multi.python punctuation.definition.string.begin",
+      "string.quoted.docstring.multi.python punctuation.definition.string.end",
+      "string.quoted.docstring.multi.python constant.character.escape"
+    ],
+    "settings": {
+      "foreground": "#6272A4"
     }
   },
   {

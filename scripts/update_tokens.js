@@ -14,7 +14,7 @@ const CALAMITY_URL = `${BASE_URL}/Pustur/vsextensions/calamity-vscode/${CALAMITY
 (async () => {
   await updateTokens({
     take: MATERIAL_URL,
-    file: "extension/themes/Material-Theme-Default.json",
+    file: "extension/out/themes/Material-Theme-Default.json",
     writeTo: "sources/base/tokens.js"
   })
 

@@ -90,9 +90,8 @@ module.exports = [
     "scope": [
       "keyword.control",
       "constant.other.color",
-      "punctuation",
-      "meta.tag",
       "punctuation.definition.tag",
+      "punctuation",
       "punctuation.separator.inheritance.php",
       "punctuation.definition.tag.html",
       "punctuation.definition.tag.begin.html",
@@ -129,7 +128,6 @@ module.exports = [
     "name": "Function, Special Method",
     "scope": [
       "entity.name.function",
-      "meta.function-call",
       "variable.function",
       "support.function",
       "keyword.other.special-method"
@@ -293,18 +291,8 @@ module.exports = [
       "entity.other.attribute-name"
     ],
     "settings": {
-      "foreground": "#C792EA"
-    }
-  },
-  {
-    "name": "HTML Attributes",
-    "scope": [
-      "text.html.basic entity.other.attribute-name.html",
-      "text.html.basic entity.other.attribute-name"
-    ],
-    "settings": {
       "fontStyle": "italic",
-      "foreground": "#FFCB6B"
+      "foreground": "#C792EA"
     }
   },
   {
