@@ -173,10 +173,45 @@ module.exports = [
     }
   },
   {
-    "scope": "entity.name.function",
+    "scope": [
+      "entity.name.function",
+      "entity.name.function.templated"
+    ],
     "settings": {
       "name": "Functions",
       "foreground": "#a6e12d"
+    }
+  },
+  {
+    "scope": "entity.name.function.member.static",
+    "settings": {
+      "name": "Functions",
+      "foreground": "#fdfff1"
+    }
+  },
+  {
+    "scope": [
+      "entity.name.type.class.templated",
+      "entity.name.type.class.generic",
+      "entity.name.type.namespace"
+    ],
+    "settings": {
+      "name": "Class template",
+      "foreground": "#66d9ee"
+    }
+  },
+  {
+    "scope": "entity.name.label",
+    "settings": {
+      "name": "label",
+      "foreground": "#ae81ff"
+    }
+  },
+  {
+    "scope": "entity.name.function.preprocessor",
+    "settings": {
+      "name": "Macros",
+      "foreground": "#66d9ee"
     }
   },
   {
@@ -231,6 +266,24 @@ module.exports = [
     "settings": {
       "name": "Tag name",
       "foreground": "#f82570"
+    }
+  },
+  {
+    "scope": "entity.name.function.operator",
+    "settings": {
+      "name": "Operator",
+      "foreground": "#f82570"
+    }
+  },
+  {
+    "scope": [
+      "entity.name.type",
+      "entity.name.type.class.reference",
+      "entity.name.type.class.value"
+    ],
+    "settings": {
+      "name": "Entity name type",
+      "foreground": "#66d9ee"
     }
   },
   {
@@ -290,6 +343,34 @@ module.exports = [
     }
   },
   {
+    "scope": "entity.other.jinja2.delimiter",
+    "settings": {
+      "name": "jinja delimiters",
+      "foreground": "#919288"
+    }
+  },
+  {
+    "scope": "entity.name.operator.custom-literal",
+    "settings": {
+      "name": "custom literal",
+      "foreground": "#fdfff1"
+    }
+  },
+  {
+    "scope": "entity.name.operator.custom-literal.string",
+    "settings": {
+      "name": "custom literal string",
+      "foreground": "#e4db73"
+    }
+  },
+  {
+    "scope": "entity.name.operator.custom-literal.number",
+    "settings": {
+      "name": "custom literal number",
+      "foreground": "#ae81ff"
+    }
+  },
+  {
     "scope": "invalid",
     "settings": {
       "name": "Invalid",
@@ -311,7 +392,18 @@ module.exports = [
     }
   },
   {
-    "scope": "keyword.operator",
+    "scope": "keyword.control.directive",
+    "settings": {
+      "name": "keyword control directive",
+      "foreground": "#f82570"
+    }
+  },
+  {
+    "scope": [
+      "keyword.operator",
+      "keyword.operator.member",
+      "keyword.operator.new"
+    ],
     "settings": {
       "name": "Operator",
       "foreground": "#f82570"
@@ -854,7 +946,10 @@ module.exports = [
     }
   },
   {
-    "scope": "storage.modifier",
+    "scope": [
+      "storage.modifier",
+      "storage.type.modifier"
+    ],
     "settings": {
       "name": "Keywords that affect the storage of a variable, function or data structure should use the following scope. Examples include static, inline, const, public and private.",
       "fontStyle": "italic",
@@ -1046,7 +1141,8 @@ module.exports = [
   {
     "scope": [
       "variable.language",
-      "variable.parameter.function.language.special.self.python"
+      "variable.parameter.function.language.special.self.python",
+      "variable.parameter.function.language.special.cls.python"
     ],
     "settings": {
       "name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
@@ -1083,6 +1179,24 @@ module.exports = [
     }
   },
   {
+    "scope": "variable.other.enummember",
+    "settings": {
+      "name": "Enum member",
+      "foreground": "#ae81ff"
+    }
+  },
+  {
+    "scope": [
+      "variable.other.property",
+      "variable.other.property.static",
+      "variable.other.event"
+    ],
+    "settings": {
+      "name": "Variable property",
+      "foreground": "#fdfff1"
+    }
+  },
+  {
     "scope": "variable.function",
     "settings": {
       "name": "Function and method names should be scoped using the following, but only when they are being invoked. When defined, they should use entity.name.function.",
@@ -1104,6 +1218,20 @@ module.exports = [
     "settings": {
       "name": "Ruby instance variables",
       "foreground": "#ae81ff"
+    }
+  },
+  {
+    "scope": "source.jinja2 variable.other.jinja2.block",
+    "settings": {
+      "name": "jinja2 variable block",
+      "foreground": "#a6e12d"
+    }
+  },
+  {
+    "scope": "source.jinja2 variable.other.jinja2",
+    "settings": {
+      "name": "jinja2 variable",
+      "foreground": "#fc961f"
     }
   }
 ];
