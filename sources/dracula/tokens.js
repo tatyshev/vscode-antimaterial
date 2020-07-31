@@ -253,7 +253,8 @@ module.exports = [
   {
     "name": "User-defined class names",
     "scope": [
-      "entity.name.type.class"
+      "entity.name.type.class",
+      "entity.name.class"
     ],
     "settings": {
       "foreground": "#8BE9FD",

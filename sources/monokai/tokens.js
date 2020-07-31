@@ -50,14 +50,14 @@ module.exports = [
     "scope": "comment.git-status.header.remote",
     "settings": {
       "name": "git status remote",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
     "scope": "comment.git-status.header.local",
     "settings": {
       "name": "git status local",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -127,7 +127,14 @@ module.exports = [
     "scope": "constant.other.symbol",
     "settings": {
       "name": "Constant as symbol (e.g. in ruby)",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
+    }
+  },
+  {
+    "scope": "constant.other.elm",
+    "settings": {
+      "name": "Constants in elm",
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -162,14 +169,14 @@ module.exports = [
     "scope": "constant.numeric.line-number.match.find-in-files",
     "settings": {
       "name": "Search result matched line numbes",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
     }
   },
   {
     "scope": "entity.name.section",
     "settings": {
       "name": "Sections",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
     }
   },
   {
@@ -179,7 +186,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Functions",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -197,7 +204,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Class template",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -211,21 +218,21 @@ module.exports = [
     "scope": "entity.name.function.preprocessor",
     "settings": {
       "name": "Macros",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
     "scope": "entity.name",
     "settings": {
       "name": "Entity name",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
     "scope": "entity.name.class",
     "settings": {
       "name": "Class name",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -247,14 +254,14 @@ module.exports = [
     "settings": {
       "name": "Inherited class",
       "fontStyle": "italic",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
     "scope": "entity.name.function",
     "settings": {
       "name": "Function name",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -265,14 +272,14 @@ module.exports = [
     ],
     "settings": {
       "name": "Tag name",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
     "scope": "entity.name.function.operator",
     "settings": {
       "name": "Operator",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -283,7 +290,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Entity name type",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -291,7 +298,7 @@ module.exports = [
     "settings": {
       "name": "Tag attribute",
       "fontStyle": "italic",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -299,18 +306,19 @@ module.exports = [
       "entity.other.attribute-name.class.css",
       "entity.other.attribute-name.parent-selector-suffix.css",
       "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
-      "entity.other.attribute-name.css"
+      "entity.other.attribute-name.css",
+      "entity.other.animation-name.css"
     ],
     "settings": {
       "name": "CSS class",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
     "scope": "entity.other.attribute-name.id.css",
     "settings": {
       "name": "CSS id",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -322,7 +330,7 @@ module.exports = [
     "settings": {
       "name": "CSS pseudo class",
       "fontStyle": "italic",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -332,7 +340,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Function names / calls",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -360,7 +368,7 @@ module.exports = [
     "scope": "entity.name.operator.custom-literal.string",
     "settings": {
       "name": "custom literal string",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
     }
   },
   {
@@ -368,6 +376,20 @@ module.exports = [
     "settings": {
       "name": "custom literal number",
       "foreground": "#ae81ff"
+    }
+  },
+  {
+    "scope": "entity.name.type.rust",
+    "settings": {
+      "name": "rust specific",
+      "foreground": "#66d9ef"
+    }
+  },
+  {
+    "scope": "entity.name.lifetime.rust",
+    "settings": {
+      "name": "rust specific",
+      "foreground": "#f92672"
     }
   },
   {
@@ -381,21 +403,21 @@ module.exports = [
     "scope": "keyword",
     "settings": {
       "name": "Keyword",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
     "scope": "keyword.control",
     "settings": {
       "name": "Control keywords examples include if, try, end and while. Some syntaxes prefer to mark if and else with the conditional variant. The import variant is often used in appropriate situations.",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
     "scope": "keyword.control.directive",
     "settings": {
       "name": "keyword control directive",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -406,7 +428,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Operator",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -423,7 +445,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Template literal begin / end",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -434,6 +456,35 @@ module.exports = [
     "settings": {
       "name": "RestructuredText heading, table markup",
       "foreground": "#919288"
+    }
+  },
+  {
+    "scope": "keyword.other.parenthesis.elm",
+    "settings": {
+      "name": "elm parenthesis",
+      "foreground": "#919288"
+    }
+  },
+  {
+    "scope": [
+      "keyword.other.fn.rust",
+      "keyword.other.rust",
+      "keyword.other.unsafe.rust",
+      "keyword.other.where.rust"
+    ],
+    "settings": {
+      "name": "rust specific",
+      "foreground": "#66d9ef"
+    }
+  },
+  {
+    "scope": [
+      "keyword.control.rust",
+      "keyword.operator.misc.rust"
+    ],
+    "settings": {
+      "name": "rust specific",
+      "foreground": "#f92672"
     }
   },
   {
@@ -454,14 +505,14 @@ module.exports = [
     "scope": "markup.heading",
     "settings": {
       "name": "Heading",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
     }
   },
   {
     "scope": "markup.raw",
     "settings": {
       "name": "Raw",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -475,7 +526,7 @@ module.exports = [
     "scope": "markup.underline.link",
     "settings": {
       "name": "Link",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -485,7 +536,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Diff inserted",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -495,7 +546,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Diff deleted",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -505,7 +556,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Diff changed",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
     }
   },
   {
@@ -548,18 +599,18 @@ module.exports = [
   },
   {
     "scope": [
-      "meta.function-call.python",
-      "meta.function-call.arguments.python meta.function-call.python"
+      "meta.function-call.generic.python",
+      "support.function.builtin.python"
     ],
     "settings": {
-      "name": "Function call",
-      "foreground": "#a6e12d"
+      "name": "Function call (vs)",
+      "foreground": "#a6e22e"
     }
   },
   {
     "scope": "meta.function-call.python meta.function-call.arguments.python",
     "settings": {
-      "name": "Function arguments",
+      "name": "Function arguments (vs)",
       "foreground": "#fdfff1"
     }
   },
@@ -567,7 +618,7 @@ module.exports = [
     "scope": "meta.instance.constructor",
     "settings": {
       "name": "Constructor (new MyClass())",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -577,7 +628,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Class string name (i.e. in html attributes)",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -587,7 +638,7 @@ module.exports = [
     ],
     "settings": {
       "name": "ID string name (i.e. in html attributes)",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -651,7 +702,7 @@ module.exports = [
     ],
     "settings": {
       "name": "JSON values",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
     }
   },
   {
@@ -665,7 +716,7 @@ module.exports = [
     "scope": "meta.property-list.css variable.other",
     "settings": {
       "name": "SCSS Variable",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -682,7 +733,30 @@ module.exports = [
     "scope": "meta.diff.git-diff.header",
     "settings": {
       "name": "git diff header",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
+    }
+  },
+  {
+    "scope": "meta.type_params.rust",
+    "settings": {
+      "name": "rust specific (brackets and certain type names)",
+      "foreground": "#fdfff1"
+    }
+  },
+  {
+    "scope": [
+      "meta.attribute.rust",
+      "meta.annotation.rust",
+      "variable.language.rust",
+      "variable.annotation.rust",
+      "meta.annotation.rust string",
+      "meta.annotation.rust keyword",
+      "meta.annotation.rust keyword.operator",
+      "meta.attribute.rust string"
+    ],
+    "settings": {
+      "name": "rust specific (variable.language.rust is 'self' keyword.",
+      "foreground": "#c0c1b5"
     }
   },
   {
@@ -741,7 +815,7 @@ module.exports = [
     ],
     "settings": {
       "name": "Punctuation section embedded (i.e. ?php blocks in html)",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -751,11 +825,13 @@ module.exports = [
       "punctuation.definition.string.template.begin",
       "punctuation.definition.string.template.end",
       "string.quoted.template punctuation.definition.string.begin",
-      "string.quoted.template punctuation.definition.string.end"
+      "string.quoted.template punctuation.definition.string.end",
+      "punctuation.definition.template-expression.begin",
+      "punctuation.definition.template-expression.end"
     ],
     "settings": {
       "name": "Punctuation template string (`example`)",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -772,40 +848,40 @@ module.exports = [
     "scope": "region.redish",
     "settings": {
       "name": "region red color",
-      "foreground": "#f82570",
-      "background": "#f8257059"
+      "foreground": "#f92672",
+      "background": "#f9267259"
     }
   },
   {
     "scope": "region.orangish",
     "settings": {
       "name": "region orange color",
-      "foreground": "#fc961f",
-      "background": "#fc961f59"
+      "foreground": "#fd971f",
+      "background": "#fd971f59"
     }
   },
   {
     "scope": "region.yellowish",
     "settings": {
       "name": "region yellow color",
-      "foreground": "#e4db73",
-      "background": "#e4db7359"
+      "foreground": "#e6db74",
+      "background": "#e6db7459"
     }
   },
   {
     "scope": "region.greenish",
     "settings": {
       "name": "region green color",
-      "foreground": "#a6e12d",
-      "background": "#a6e12d59"
+      "foreground": "#a6e22e",
+      "background": "#a6e22e59"
     }
   },
   {
     "scope": "region.bluish",
     "settings": {
       "name": "region blue color",
-      "foreground": "#66d9ee",
-      "background": "#66d9ee59"
+      "foreground": "#66d9ef",
+      "background": "#66d9ef59"
     }
   },
   {
@@ -820,8 +896,8 @@ module.exports = [
     "scope": "region.pinkish",
     "settings": {
       "name": "region pink color",
-      "foreground": "#f82570",
-      "background": "#f8257059"
+      "foreground": "#f92672",
+      "background": "#f9267259"
     }
   },
   {
@@ -864,7 +940,7 @@ module.exports = [
     "settings": {
       "name": "SASS, SCSS and LESS variables",
       "fontStyle": "italic",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -901,7 +977,7 @@ module.exports = [
     "scope": "source.git-show meta.diff.range.unified",
     "settings": {
       "name": "git diff header range",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -918,15 +994,15 @@ module.exports = [
     "scope": "storage",
     "settings": {
       "name": "Storage",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
     "scope": "storage.type",
     "settings": {
-      "name": "Types and definition/declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
+      "name": "Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
       "fontStyle": "italic",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -934,7 +1010,7 @@ module.exports = [
     "settings": {
       "name": "Extends",
       "fontStyle": "normal",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -942,7 +1018,7 @@ module.exports = [
     "settings": {
       "name": "Fat arrow function",
       "fontStyle": "normal",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -953,7 +1029,7 @@ module.exports = [
     "settings": {
       "name": "Keywords that affect the storage of a variable, function or data structure should use the following scope. Examples include static, inline, const, public and private.",
       "fontStyle": "italic",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -964,10 +1040,50 @@ module.exports = [
     }
   },
   {
+    "scope": [
+      "storage.modifier.visibility.rust",
+      "storage.modifier.lifetime.rust"
+    ],
+    "settings": {
+      "name": "rust specific",
+      "foreground": "#f92672"
+    }
+  },
+  {
+    "scope": [
+      "storage.modifier.const.rust",
+      "storage.modifier.dyn.rust",
+      "storage.modifier.mut.rust",
+      "storage.modifier.static.rust",
+      "storage.type.rust",
+      "storage.type.core.rust",
+      "storage.class.std.rust"
+    ],
+    "settings": {
+      "name": "rust specific",
+      "foreground": "#66d9ef"
+    }
+  },
+  {
+    "scope": [
+      "storage.type.rust",
+      "storage.modifier.const.rust",
+      "storage.modifier.dyn.rust",
+      "storage.modifier.mut.rust",
+      "storage.modifier.static.rust",
+      "keyword.other.rust",
+      "keyword.other.where.rust"
+    ],
+    "settings": {
+      "name": "rust specific (adjust blue to red)",
+      "foreground": "#f92672"
+    }
+  },
+  {
     "scope": "string",
     "settings": {
       "name": "String",
-      "foreground": "#e4db73"
+      "foreground": "#e6db74"
     }
   },
   {
@@ -998,14 +1114,14 @@ module.exports = [
     ],
     "settings": {
       "name": "link title",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
     "scope": "string.other.link.description.title",
     "settings": {
       "name": "link description",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -1015,7 +1131,7 @@ module.exports = [
     ],
     "settings": {
       "name": "String regexp begin / end",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
@@ -1025,7 +1141,7 @@ module.exports = [
     ],
     "settings": {
       "name": "refs (Restructured text)",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
@@ -1039,14 +1155,14 @@ module.exports = [
     "scope": "string.other.git-status.remote",
     "settings": {
       "name": "git status remote",
-      "foreground": "#f82570"
+      "foreground": "#f92672"
     }
   },
   {
     "scope": "support.constant",
     "settings": {
       "name": "Library constant",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -1067,7 +1183,14 @@ module.exports = [
     "scope": "support.function",
     "settings": {
       "name": "Function name",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
+    }
+  },
+  {
+    "scope": "support.function.delimiter.elm",
+    "settings": {
+      "name": "function brackets, comma's",
+      "foreground": "#919288"
     }
   },
   {
@@ -1078,14 +1201,14 @@ module.exports = [
     "settings": {
       "name": "Library type",
       "fontStyle": "italic",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
     "scope": "support.variable",
     "settings": {
       "name": "Support variables",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -1100,7 +1223,14 @@ module.exports = [
     "scope": "support.class",
     "settings": {
       "name": "Library class",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
+    }
+  },
+  {
+    "scope": "support.constant.core.rust",
+    "settings": {
+      "name": "rust specific",
+      "foreground": "#ae81ff"
     }
   },
   {
@@ -1135,7 +1265,7 @@ module.exports = [
     "settings": {
       "name": "Function arguments",
       "fontStyle": "italic",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -1161,7 +1291,7 @@ module.exports = [
     "scope": "variable.other.class",
     "settings": {
       "name": "Library function",
-      "foreground": "#66d9ee"
+      "foreground": "#66d9ef"
     }
   },
   {
@@ -1169,6 +1299,13 @@ module.exports = [
     "settings": {
       "name": "Immutable variables, often via a const modifier, should receive the following scope. Depending on the language and semantics, entity.name.constant may be a better choice.",
       "foreground": "#ae81ff"
+    }
+  },
+  {
+    "scope": "variable.other.readwrite",
+    "settings": {
+      "name": "read/write variables",
+      "foreground": "#fdfff1"
     }
   },
   {
@@ -1200,14 +1337,14 @@ module.exports = [
     "scope": "variable.function",
     "settings": {
       "name": "Function and method names should be scoped using the following, but only when they are being invoked. When defined, they should use entity.name.function.",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
     "scope": "variable.other.substitution",
     "settings": {
       "name": "Substitution (restructured text)",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   },
   {
@@ -1224,14 +1361,14 @@ module.exports = [
     "scope": "source.jinja2 variable.other.jinja2.block",
     "settings": {
       "name": "jinja2 variable block",
-      "foreground": "#a6e12d"
+      "foreground": "#a6e22e"
     }
   },
   {
     "scope": "source.jinja2 variable.other.jinja2",
     "settings": {
       "name": "jinja2 variable",
-      "foreground": "#fc961f"
+      "foreground": "#fd971f"
     }
   }
 ];
